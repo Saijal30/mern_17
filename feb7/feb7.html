@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Admission form</title>
+    </head>
+    <body>
+        <h1>College Admission form</h1>
+        <form>
+           <h3>First name :</h3>
+           <input type="text" name="name" placeholder="first name" pattern="[A-Za-z]+" required />
+           <br>
+           <h3>Last name:</h3>
+           <input type="text" name="lname" placeholder="Last name"  pattern="[A-Za-z]+"/>
+           <br>
+           <h3>Father's first name :</h3>
+           <input type="text" name="Fa.name" placeholder="Father's name" pattern="[A-Za-z]+" required />
+           <br>
+           <h3>Father's Last name :</h3>
+           <input type="text" name="Fa.lname" placeholder="Father's last name" pattern="[A-Za-z]+" required />
+           <br>
+           <h3>Phone no.:</h3>
+           <input type="tel" name="ph.no" placeholder="0000000000" pattern="[1-9][0-9]{9}" required/>
+           <br>
+           <h3>Date of Birth:</h3>
+           <input type="date" name="date" required/><br>
+           
+           <h3>12th percentage:</h3>
+           <input type="text" name="12th" placeholder="00.00" pattern="[1-9][0-9]\.[0-9][0-9]" required/><br>
+           <h3>10th percentage:</h3>
+           <input type="text" name="10th" placeholder="00.00" pattern="[1-9][0-9]\.[0-9][0-9]" required/><br>
+           
+            <h3>Email:</h3>
+           <input type="email" name="email" placeholder="email@gmail.com" pattern=".+@gmail\.com" required/><br>
+            <br>
+            <input type="checkbox" name="check" value="1"required/>
+            <p> All the shared information is correct.</p>
+            <br>
+            <input type="submit"/>
+            <input type="reset"/>
+
+        </form>
+
+    </body>
+</html>
