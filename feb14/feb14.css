@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+.uppernav{
+    width: 100%;
+    height: 50px;
+    background-color: #111;
+    color:white;
+    padding: 6px 6px 6px 32px;
+
+}
+.left{
+    float:left;
+    text-decoration: none;
+    
+    
+    color:white;
+    margin: 6px 6px 6px 6px;
+}
+
+
+
+#search{
+    width: 350px;
+    height: 35px;
+    background-color: black;
+    padding-top: 2px;
+   
+}
+
+
+  
+.sidenav {
+        height: 100%;
+        width: 200px;
+        position: fixed;
+        left: 0;
+        background-color: #111;
+       
+        padding-top: 20px;
+      }
+      .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color:white;
+        display: block;
+      }
+  .main {
+    margin-left: 200px; 
+    display:grid;
+    grid-template-columns: auto auto  auto;
+    color:white;
+  }
