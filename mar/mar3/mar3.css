@@ -1,0 +1,75 @@
+
+body{
+    display:block;
+    background-color: rgb(202, 235, 235);
+    background-size: cover;
+    margin: 0px;
+  
+}
+
+.none{
+    display: none;
+}
+
+.show{
+    display: block
+}
+
+.popup {
+    position: fixed;
+    top: 40%;
+    left: 39%;
+    height: 20vh;
+    width: 23vw;
+    background-color: #e2f093d3;
+    border: 2px solid  #eeb909;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.head{
+    background-color: #e93e0a;
+    border-radius:1px 1px 1px 1px ;
+    height: 4vh;
+    color: white;
+}
+
+.d-none {
+    display: none;
+}
+
+img{
+    height: 4vh;
+    width: 2vw;
+
+}
+.click{
+    position: fixed;
+    top: 20%;
+    left: 48%;
+}
+.btn{
+    padding: 5px;
+    margin: 4px;
+    width: 50px;
+    
+    
+}
+#last{
+    margin-top: 25px;
+    padding: 1vh 2vw 1vh 2vw;
+}
+.close:hover{
+   
+    color: rgb(204, 195, 195);
+}
+.btn:hover{
+    background-color: rgb(195, 192, 192);
+    
+}
+#pop{
+    position: relative;
+    left: 4%;
+    top: 15%;
+}
