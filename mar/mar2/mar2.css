@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    
+    background-image: url('freeimg_45074996043freejpg850.jpg');
+    background-repeat: no-repeat  ;
+    background-size: cover;
+    text-align: center;
+    color:#f0f8ff;
+}
+
+#container{
+    margin-top:20px;
+    margin-left: 100px;
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #7fffd4;
+    border-width: 10px;
+    
+}
+
+h1{
+    font-size: 80px;
+    font-family: 'Shadows Into Light', cursive;
+}
+button{
+    border:none;
+    border-radius: 3px;
+    background-color:#dafff9;
+    color: #1aa375;
+    width :150px;
+    padding: 10px 30px;
+    font-size: 16px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #f0f5f3;
+    width: 180px;
+}

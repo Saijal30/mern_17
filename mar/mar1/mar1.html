@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Log In</title>
+        <link rel="stylesheet" href="mar1.css"/>
+    </head>
+    <body style="background-image: url('back.jpg');">
+        <div class="main">
+            <br>
+            <h1>Sign In</h1>
+            <hr>
+        <div class="inputs">
+            <form>
+            <label>Name:</label>
+            <input type="text" placeholder="Name"  required>
+            <br>
+            <label>Username:</label>
+            <input type="text" placeholder="Username" required>
+            <br>
+            <label>Email:</label>
+            <input placeholder="enter Email" required type="email" ><br>
+            <label>Password:</label>
+            <input type="password" id="pass" placeholder="Password" minlength="5" required ><br>
+            <label>Confirm :</label>
+            <input type="password" id="confirm" placeholder="Confirm Password" minlength="5" required ><br>
+            <p id="alert"></p>
+            <input type="submit" onclick="Match();" value="Create account"/>
+            </form>
+        </div>
+        
+        </div>
+        <script src="mar1.js"></script>
+    </body>
+</html>

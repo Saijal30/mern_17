@@ -1,0 +1,12 @@
+.box{
+    height: 290px;
+    background-color: rgb(217, 224, 230);
+    border-radius: 14px;
+    
+}
+p{
+    margin-left: 100px;
+    color:rgb(49, 38, 38);
+    display: inline;
+    font-size: 20px;
+}
