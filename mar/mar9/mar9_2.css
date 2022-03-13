@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    text-align: center;
+   
+}
+.side-nav{
+    background-color: rgb(157, 241, 182);
+    width: 200px;
+    height: 100vh;
+    overflow: hidden;
+    min-width: 60px;
+    max-width: 20vw;
+  
+}
+.right{
+    float: right;
+}
+.d-none{
+  display: none;
+}
+.first-container,.fourth-container,.third-container,.second-container{
+    width: 60vw;
+    position: absolute;
+    left: 25%;
+    top: 10%;
+    background-color: rgb(167, 224, 167);
+    background-size: cover;
+    border: 2px solid green;
+    height: 70vh;
+  }
+  .left{
+    font-size: 40px;
+    font-weight: bold;
+    color: #05632c;
+  }
+  
+  a{
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  .side-btn{
+    background: none;
+    font-size: x-large;
+  }
+  .side-btn:focus{
+    color: rgb(8, 71, 82);
+    
+  }
+  
+  .active-btn{
+    color: rgb(8, 71, 82);
+   
+  }
+  
+  .first-bottom,.second-bottom,.third-bottom,.buy-bottom,.fourth-bottom{
+    margin-top: 40px;
+  }
+  
+  .close{
+    font-size: x-large;
+  }
+  .close-bttn{
+    font-size: large;
+    background-color: rgb(255, 251, 251);
+  }
+  .close-bttn:hover{
+    background-color: rgb(223, 205, 205);
+  }
+  button,.close-bttn{
+    padding: 15px;
+    margin-left: 0px;
+    
+    color: rgb(30, 85, 23);
+     cursor: pointer;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  
+  input{
+    color: rgb(18, 95, 41);
+    background-color: rgb(255, 255, 255);
+   
+    width: 27vw;
+    border: none;
+    border-radius: 10px;
+    height: 5vh;
+    
+    margin-left: 5px;
+  }
+.fourth-container,.buy-container,.fourth-container,.third-container,.second-container{
+    display: none;
+}

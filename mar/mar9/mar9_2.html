@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Notes</title>
+    <link rel="stylesheet" href="./mar9_2.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="side-nav">
+            <button onclick="clicked('first');" class="side-btn active-btn"> first</button><br>
+            <button onclick="clicked('second'); " class="side-btn">second</button><br>
+            <button onclick="clicked('third');" class="side-btn">third</button><br>
+            <button onclick="clicked('fourth'); " class="side-btn">fourth</button><br>
+        </div>
+     <div class="first-container" id="first">
+            <span class="left"> first</span>
+        
+            <br><br>
+            <input type="text" id="ip-first-text" placeholder="write..">
+            <button id="first-btn">ADD </button>
+            <ul class="first-list" id="first-list-item">
+               
+            </ul>
+            <div class="first-bottom">
+               
+                <button class="close-bttn" onclick="close_div('first');"> back</button>
+                <span class="right"> <i class="fa fa-plus-circle fa-2x">&nbsp;</i></span>
+            </div>
+        </div>
+        <div class="second-container" id="second">
+            <span class="left"> second</span>
+            
+            <br><br>
+            <input type="text" id="ip-second-text" placeholder="write..">
+            <button id="second-btn">ADD </button>
+            <ul class="second-list" id="second-list-item">
+            
+            </ul>
+            <div class="second-bottom">
+              
+                <button class="close-bttn" onclick="close_div('second');"> back</button>
+                <span class="right"> <i class="fa fa-plus-circle fa-2x"></i>&nbsp;</span>
+            </div>
+        </div>
+        <div class="third-container" id="third">
+            <span class="left"> third</span>
+           
+            <br><br>
+            <input type="text" id="ip-third-text" placeholder="write.."> <button id="third-btn">ADD
+            </button>
+            <ul class="third-list" id="third-list-item">
+               
+            </ul>
+            <div class="third-bottom">
+                <button class="close-bttn" onclick="close_div('third');"> back</button>
+                <span class="right"> <i class="fa fa-plus-circle fa-2x"></i>&nbsp;</span>
+            </div>
+        </div>
+        <div class="fourth-container" id="fourth">
+            <span class="left"> fourth</span>
+           
+            <br><br>
+            <input type="text" id="ip-fourth-text" placeholder="write .."> <button id="fourth-btn">ADD
+            </button>
+            <ul class="fourth-list" id="fourth-list-item">
+             
+            </ul>
+            <div class="fourth-bottom">
+              
+                <button class="close-bttn" onclick="close_div('fourth');"> back</button>
+                <span class="right"> <i class="fa fa-plus-circle fa-2x"></i>&nbsp;</span>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+      <script src="./mar9_2.js"></script>
+</body>
+
+</html>

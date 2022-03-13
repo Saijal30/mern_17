@@ -1,0 +1,47 @@
+
+.outside{
+    background-color: rgb(122, 109, 240);
+    float:left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+div{
+    border: 1px solid rgb(12, 13, 77);
+    margin: auto;
+    text-align: center;
+    width: 40vw;
+}
+
+.header{
+    color: rgb(12, 7, 85);
+}
+button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(14, 14, 88);
+    padding: 10px;
+    font-weight: bold;
+}
+#add-btn{
+    float:left;
+    height: 5vh;
+    
+}
+
+
+
+input {
+    color: rgb(6, 6, 43);
+    font-weight: bold;
+    width: 35vw;
+    height: 4vh;
+   
+}
+.menu-container{
+    text-align: left;
+    background-color: rgb(68, 127, 238);
+    color: rgba(0, 0, 0, 0.762);
+}
+.blue{
+    color: blue;
+}
